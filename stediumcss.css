@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navmenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navlist{
+    float: right;
+}
+
+.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.navlist a:hover{
+    background-color: #111;
+}
+
+.logo{
+    display: flex;
+}
+
+.headfcb{
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidemenu{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    overflow: hidden;
+    
+}
+
+.sidelist a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.sidelist a:hover{
+    background-color: #333;
+}
+
+.activeside{
+    background-color: #4d4d4d;
+}
+
+.main{
+    display: flex;
+    height: max-content;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #111;
+}
+
+.mainarea{
+    width: 85%;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hero1{
+    height: 410px;
+    width: 700px;
+    margin: 20px 20px;
+    border-radius: 5%;
+    
+}
+
+.side1{
+    height: 200px;
+    width: 350px;
+    border-radius: 5%;
+}
+
+.stedium-img{
+    display: flex;
+    margin: 5px 50px;
+}
+
+.side-img{
+    display: inline;
+    margin: 20px 10px;
+}
+
+.oldinfo{
+    font-size:20px;
+    padding: 10px 30px;
+    text-align: justify;
+}
+.keymilestone{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.semi-img img{
+    border-radius: 5%;
+    height: 250px;
+    width: 500px;
+}
+
+.semi-img{
+    display: flex;
+    justify-content: space-evenly;
+}

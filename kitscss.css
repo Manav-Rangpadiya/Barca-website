@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navmenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navlist{
+    float: right;
+}
+
+.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.navlist a:hover{
+    background-color: #111;
+}
+
+.logo{
+    display: flex;
+}
+
+.headfcb{
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidemenu{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    overflow: hidden;
+    
+}
+
+.sidelist a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.sidelist a:hover{
+    background-color: #333;
+}
+
+.activeside{
+    background-color: #4d4d4d;
+}
+
+.main{
+    display: flex;
+    height: max-content;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #111;
+    
+}
+ .mainarea{
+    width: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+ }
+
+ .year{
+    text-align: center;
+    font-weight: bolder;
+
+ }
+
+ .kit-img img{
+    height: 250px;
+    width: 250px;
+    border: 3px solid #9c1231;
+    border-radius: 50%;
+    box-shadow: 2px 2px #333;
+ }
+
+.kit-name{
+    height: 30px;
+    width: 250px;
+    border: 3px solid aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.year2324{
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-evenly;
+}
+ 
+

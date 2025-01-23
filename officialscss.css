@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navmenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navlist{
+    float: right;
+}
+
+.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.navlist a:hover{
+    background-color: #111;
+}
+
+.logo{
+    display: flex;
+}
+
+.headfcb{
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidemenu{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    overflow: hidden;
+    
+}
+
+.sidelist a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.sidelist a:hover{
+    background-color: #333;
+}
+
+.activeside{
+    background-color: #4d4d4d;
+}
+
+.main{
+    display: flex;
+    height: max-content;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #111;
+    
+}
+ .mainarea{
+    width: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+
+ }
+
+ .official-img img{
+    height: 250px;
+    width: 230px;
+    border: 3px solid black;
+    box-shadow: 2px 2px #39129c;
+ }
+
+ .official-name{
+    height: 70px;
+    width: 230px;
+    border: 3px solid black;
+    text-align: center;
+    box-shadow: 2px 2px #9c1231;
+    margin: 10px 0;
+ }
+
+ .line1, .line2, .line3{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+ }
+

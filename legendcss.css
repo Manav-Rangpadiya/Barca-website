@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navmenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navlist{
+    float: right;
+}
+
+.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.navlist a:hover{
+    background-color: #111;
+}
+
+.logo{
+    display: flex;
+}
+
+.headfcb{
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidemenu{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    overflow: hidden;
+    
+}
+
+.sidelist a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.sidelist a:hover{
+    background-color: #333;
+}
+
+.activeside{
+    background-color: #4d4d4d;
+}
+
+.main{
+    display: flex;
+    height: max-content;
+
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #111;
+    position: sticky;
+    
+}
+ .mainarea{
+    flex: 85%;
+    background-color: aliceblue;
+    padding: 10px;
+
+ }
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    padding:  15px 15px 15px 30px;
+    margin-left: 7px ;
+    gap: 20px;
+}
+
+.grid-img{
+    border: 2px #111 solid;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.grid-img img{
+    border-radius: 10%;
+    width: 100%;
+}

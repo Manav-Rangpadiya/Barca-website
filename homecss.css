@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 5px;
+}
+
+.navmenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navlist{
+    float: right;
+}
+
+.navlist a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.navlist a:hover{
+    background-color: #111;
+}
+
+.activenav{
+    background-color: rgb(247, 10, 10);
+}
+
+.logo{
+    display: flex;
+}
+
+.headfcb{
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.sidemenu{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+    overflow: hidden;
+    
+}
+
+.sidelist a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+.sidelist a:hover{
+    background-color: #333;
+}
+
+.main{
+    display: flex;
+    height: max-content;
+}
+
+.sidebar{
+    width: 15%;
+    background-color: #111;
+    
+}
+
+.mainarea{
+    width: 85%;
+    background-color: aliceblue;
+}
+
+.mainarea{
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.oneplot{
+    display: flex;
+
+}
+
+h2{
+    padding: 20px 0;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.heroimg1{
+    padding: 65px 0;
+    height: inherit;
+    width: inherit;
+    border: 3px solid black;
+}
+
+.herotext1{
+    padding: 0 10px;
+    height: inherit;
+    width: inherit;
+    border: 3px solid black;
+}
+
+.twoplot{
+    display: flex;
+    margin: 10px 0;
+}
+
+.heroimg2{
+    padding: 65px 0;
+    height: inherit;
+    width: inherit;
+    border: 3px solid black;
+}
+
+.herotext2{
+    padding: 0 10px;
+    height: inherit;
+    width: inherit;
+    border: 3px solid black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    font-size: 20px;
+}
+
+.footul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footli a{
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.footli a:hover{
+    background-color: #111;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.pfoot{
+    color: white;
+}
